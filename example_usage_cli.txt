@@ -1,0 +1,21 @@
+Dependencies:
+- pandas
+- cape-dataframes
+- pyspark
+- typer
+
+Help:
+python privacy.py --help
+
+Usage:
+python privacy.py --data-file test_file.csv --policy-file policy_example.yaml
+
+
+
+
+
+1. virtualenv venv
+
+2. source venv/bin/activate
+
+3. pip3 install -r requirements.txt
